@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <header>
+        <h1>Flexbox</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        <form>
+            <input type="search" name="q" placeholder="search query">
+            <input type="Submit" value="Go!">
+        </form>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Flexbox</h2>
+            <p>Flexbox is a layout tool in CSS that helps you easily position HTML elements on 
+                the page. To use it apply the 'display: flex' property to the container element 
+                of the content that you want to lay out.</p>
+
+            <h3>Importance</h3>
+            <ol>
+                <li>Enables you to stick to a given design.</li>
+                <li>Makes it easier to design flexible responsive layout 
+                    structure without using float or positioning.</li>
+            </ol>
+
+            <h3>Example</h3>
+            <h4>A flex container with three flex items</h4>
+            <div class="flex-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+                <div>11</div>
+                <div>12</div>
+                <div>13</div>
+                <div>14</div>
+                <div>15</div>
+            </div>
+
+            <p>Direct child elements(s) of the flexible container automatically becomes flexible items. </p>
+
+            <h3>Flex container properties</h3>
+            <ol>
+                <li>flex-direction</li>
+                <li>flex-wrap</li>
+                <li>flex-flow</li>
+                <li>justify-content</li>
+                <li>align-items</li>
+                <li>align-content </li>
+            </ol>
+            
+            <h4>Flex-direction property</h4>
+            <p>The flex-direction property defines in which direction the container wants 
+                to stack the flex items.</p>
+            <p>Types of flex-direction are:</p>
+            <ul>
+                <li>flex-direction: column </li>
+                <li>flex-direction: column-reverse </li>
+                <li>flex-direction: row </li>
+                <li>flex-direction: row-reverse </li>
+            </ul>
+
+            <h4>The flex-wrap Property</h4>
+            <p>The flex-wrap property specifies whether the flex items should wrap or not.</p>
+            <p>Types:</p>
+            <ul>
+                <li>flex-wrap: wrap;  #The wrap value specifies that the flex items will wrap if necessary </li>
+                <li>flex-wrap: nowrap; #The nowrap value specifies that the flex items will not wrap (this is default) </li>
+                <li>flex-wrap: wrap-reverse; #The wrap-reverse value specifies that the flexible items will wrap if necessary, in reverse order </li>
+                <li> </li>                
+            </ul>
+
+            <h4>The flex-flow Property </h4>
+            <p>The flex-flow property is a shorthand property for setting both the flex-direction and 
+                flex-wrap properties</p>
+            <ul>
+                <li>flex-flow: row wrap;</li>
+            </ul>
+
+            <h4>The justify-content Property </h4>
+            <p>The justify-content property is used to align the flex items </p>
+            <ul>
+                <li>justify-content: center;  #Aligns the flex items at the center of the container </li>
+                <li>justify-content: flex-start; #Aligns the flex items at the beginning of the container (this is default) </li>
+                <li>justify-content: flex-end; #Aligns the flex items at the end of the container </li>
+                <li>justify-content: space-around; #displays the flex items with space before, between, and after the lines  </li>
+                <li>justify-content: space-between; #displays the flex items with space between the lines: </li>
+            </ul>
+
+            <h4>The align-items Property </h4>
+            <p>The align-items property is used to align the flex items.</p>
+            <ul>
+                <li>align-items: center; #aligns the flex items in the middle of the container</li>
+                <li>align-items: flex-start; #aligns the flex items at the top of the container  </li>
+                <li>align-items: flex-end; #aligns the flex items at the bottom of the container  </li>
+                <li>align-items: stretch; #stretches the flex items to fill the container (this is default):  </li>
+                <li>align-items: baseline; #aligns the flex items such as their baselines aligns</li>
+            </ul>
+
+
+        </article>
+    </main>
+    <aside>
+        <h2>Related Pages</h2>
+        <ul>
+            <li><a href="#">Flexbox</a></li>
+            <li><a href="#">Grid Layout</a></li>
+            <li><a href="#">Floats and Positioning</a></li>
+        </ul>
+    </aside>
+    </main>
+
+    <footer>
+        <p>@copyright 2022. All rights reserved </p>
+    </footer>    
+</body>
+</html>

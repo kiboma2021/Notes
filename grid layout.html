@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Grid Layout</title>
+</head>
+<body>
+  <header>
+    <h1>Grid Layout</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">My Team</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <form action="">
+      <input type="search" name="q" placeholder="Search Query">
+      <input type="submit" value="Go!">
+    </form>
+  </nav>
+  <main>
+    <article>
+      <h2>Grid Layout </h2>
+      <p>The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, 
+        making it easier to design web pages without having to use floats and positioning.</p>
+
+        <h3>Example 1 </h3>
+        <p>This grid layout contains six columns and three rows</p>
+        <div class="grid-container">
+          <div class="item1">Header</div>
+          <div class="item2">Menu</div>
+          <div class="item3">Main</div>
+          <div class="item4">Right</div>
+          <div class="item5">Footer</div>
+        </div>
+
+        <h3>Example 2</h3>
+        <p>A grid layout consists of a parent element, with one or more child elements.</p>
+        <div class="grid-container2">
+          <div class="grid-item1">1</div>
+          <div class="grid-item">2</div>
+          <div class="grid-item">3</div>
+          <div class="grid-item">4</div>
+          <div class="grid-item">5</div>
+          <div class="grid-item">6</div>
+          <div class="grid-item">7</div>
+          <div class="grid-item">8</div>
+          <div class="grid-item">9</div>
+        </div>
+        
+        <p>You can adjust the gap size by using one of the following properties:</p>
+        <ol>
+          <li>column-gap  --sets the gap between the columns e.g column-gap: 50px;</li>
+          <li>row-gap -- sets the gap between the rows e.g row-gap: 50px;</li>
+          <li>gap --is a shorthand property for the row-gap and the column-gap properties e.g gap: 50px 100px; or gap: 50px;</li>
+        </ol>
+
+        <h3>Grid Lines</h3>
+        <p>The lines between columns are called column lines.</p>
+        <p>The lines between rows are called row lines.</p>
+
+        <ul>
+          <li>grid-column-start</li>
+          <li>grid-column-end</li>
+          <li>grid-row-start</li>
+          <li>grid-row-end</li>
+        </ul>
+
+
+    </article>
+  </main>
+
+  <aside>
+    <h2>Related Pages</h2>
+    <ul>
+        <li><a href="#">Flexbox</a></li>
+        <li><a href="#">Grid Layout</a></li>
+        <li><a href="#">Floats and Positioning</a></li>
+    </ul>
+</aside>
+</main>
+
+<footer>
+  <p>@copyright 2022. All rights reserved </p>
+</footer>  
+
+
+</body>
+</html>
