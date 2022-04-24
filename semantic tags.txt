@@ -1,0 +1,31 @@
+#IMPORTANCE OF SEMANTIC TAGS
+
+1) makes your code easier to follow and edit by other programmers
+2) Gives your page a higher Search engine optimazation (SEO)
+3) Allows users with special needs to access your website using alternative means eg screen readers
+
+
+#BASIC SECTIONS OF A WEBSITE 
+
+Header - Fixed section at the top of the page with heading, logo etc.
+        It stays the same from one webpage to another
+
+Navigation bar - Links to the site main sections.
+        Its contents usually remain constant from one webpage to another
+
+Main Content - A big area at the center of a webpage that contains unique contents of that webpage
+        It varies from one webpage to another
+
+Sidebar - Some peripheral info, Links, quotes, ads etc e.g related pages
+
+Footer - A strip at the bottom of the page that generally contains fine print, copyright notices, contact info etc
+
+
+#HTML TAGS
+
+header: <header>.
+navigation bar: <nav>.
+main content: <main>, with various content subsections represented by <article>, <section>, and <div> elements.
+sidebar: <aside>; often placed inside <main>.
+footer: <footer>.
+
